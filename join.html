@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link href="style2.css" type="text/css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,700,700i" rel="stylesheet">
+  <!-- favicon -->
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+  <!-- icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Join Us!</title>
+</head>
+
+<body>
+  <header>
+    <div class="topbar">
+	  <h1><a href=index.html> Travelling is Fun!</a> </h1>
+	  <div class="menu">
+		<ul>
+		  <a href="#"><li>Top Destinations</li></a>
+		  <a href="#"><li>Secret Places</li></a>
+		  <a href="#"><li>Our Favourites</li></a>
+		  <a href="#"><li>Tips & Tricks </li></a>
+		  <a href="join.html"><li>Join Us</li></a>
+		</ul>
+	  </div>
+	</div>
+  </header>
+  <article>
+    <section>
+      <fieldset>
+	    <legend>Personal Information</legend>
+		<label>Name:<br>
+		<input type="text" name="name" required="required"></label><br>
+		<label>Surname:<br>
+		<input type="text" name="surname" required="required"></label><br>
+        <label>Date of Birth:<br>
+		<input type="date" name="birth" required="required"></label><br>
+	  </fieldset><br>
+	  <fieldset>
+	    <legend>Contact Details</legend>
+		<label>Email:<br>
+		<input type="text" name="email" required="required"></label><br>
+		<label>Phone:<br>
+		<input type="text" name="phone" required="required"></label><br>
+        <label>Linkedin:<br>
+		<input type="text" name="linkedin" required="required"></label><br>
+	  </fieldset>
+    </section>
+	<form>
+	  <p>Please thick your skillsets</p>
+	  <input type="checkbox" name="skillset" value="office" checked="checked" />MS Office SWs
+	  <input type="checkbox" name="skillset" value="PHP" />PHP
+	  <input type="checkbox" name="skillset" value="SQL" />SQL
+	  <input type="checkbox" name="skillset" value="HTML/CSS" />HTML/CSS	
+	  <p>Please choose the position you want to apply for</p>
+	  <select name="positions">
+	    <option value="businessanalyst">Business Analyst</option>
+	    <option value="dataanalyst">Data Analyst</option>		  <option value="headofsales">Head of Sales</option>
+		<option value="contenteditor">Content Editor</option>
+		<option value="HR">HR Specialist</option>
+	  </select>
+      <p>Can you please explain why do you want to work with us?</p>
+	  <textarea name="comments" cols="80" rows="5">Enter your comments...</textarea>
+	  <p>Please upload your CV in .pdf format</p>
+	  <input type="file" value="Upload"/><br><br>
+	  <input type="submit" value="Submit your application"/>
+	</form>
+  </article>
+</body>
+</html>

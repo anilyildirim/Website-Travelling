@@ -1,0 +1,122 @@
+:root {
+	padding: 0;
+	margin: 0;
+	font-family: Raleway;
+    background-image: linear-gradient(rgba(255,255,255,0.5), rgba(10,10,10,0.5)),
+	url("https://cdn-images-1.medium.com/max/1600/1*_6EdJgpcWyeWne36eFH7eA@2x.jpeg");
+	width: auto;
+	background-size: cover;
+	height: 580px;
+	background-repeat: no-repeat;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:visited {
+	color: rgb(128, 0, 0);
+}
+
+header {
+	margin: -10px;
+	padding: 0px;
+	width: auto;
+	color: rgb(128, 0, 0);
+}
+
+.topbar {
+	position: relative;
+	top: 0;
+	padding: 0px;
+	margin: 0px;
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+header .topbar h1 {
+	margin: 0px;
+	padding: 0px;
+	font-size: 70px;
+	text-align: center;
+}
+
+.menu {
+	list-style: none;
+	padding: 0px 50px 10px 50px;
+	text-align: center;
+}
+
+.menu li {
+	display: inline-block;
+	margin: 0px 25px;
+}
+
+.menu a {
+	text-decoration: none;
+	color: rgb(255, 204, 0);
+	font-size: 18px;
+	font-weight: 600;
+}
+
+article {
+	margin-top: 20px;
+}
+
+section {
+	width: 45%;
+	display: inline-block;
+	color: white;
+	float: left;
+	margin-left: 20px;
+	margin-top: 15px;
+}
+
+form {
+	float: right;
+	margin-right: 35px;
+	background-color: rgba(255, 255, 255, 0);
+	color: white;
+}
+
+fieldset {
+	border-radius: 5px;
+	border: 2px dotted rgb(255, 204, 0);
+}
+
+fieldset input {
+	background-color: rgba(255, 255, 255, 0.5);
+	color: white;
+	border-radius: 5px;
+}
+
+form textarea {
+	background-color: rgba(255, 255, 255, 0.5);
+	color: white;
+	font-family: Raleway;
+	border-radius: 5px;
+}
+
+[name="positions"] {
+	font-family: Raleway;
+	background-color: rgba(255, 255, 255, 0.5);	
+}
+
+[type="file"] {
+	font-family: Raleway;
+}
+
+[type="submit"] {
+	font-family: Raleway;
+	font-weight: 600;
+	background-color: rgb(255, 204, 0);
+	color: rgb(128, 0, 0);
+    border-radius: 5px;
+    border: 2px solid rgb(255, 204, 0);	
+}
+
+[type="submit"]:hover {
+	background-color: rgb(128, 0, 0);
+	color: rgb(255, 204, 0);
+    border-radius: 5px;
+    border: 2px solid rgb(128, 0, 0);	
+}
